@@ -2,6 +2,11 @@
 
 A simple, interactive **Rock, Paper, Scissors** game against the computer – built with **TypeScript**, **HTML**, and **CSS**.
 
+## Live Demo
+
+You can view the live version of this project here:  
+[**Rock, Paper, Scissors – Live Demo**](https://nucito101.github.io/Projekt_Rock_Paper_Scissor/)
+
 ## Features
 
 - Custom number of rounds (1–20)
