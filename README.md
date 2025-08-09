@@ -7,6 +7,14 @@ A simple, interactive **Rock, Paper, Scissors** game against the computer – bu
 You can view the live version of this project here:  
 [**Rock, Paper, Scissors – Live Demo**](https://nucito101.github.io/Projekt_Rock_Paper_Scissor/)
 
+## How It Works
+
+1. Enter number of rounds (1–20)
+2. Click “Start Game” to reveal the game UI
+3. Select ✊, ✋ or ✌ to play
+4. See the animations, scores, and progress
+5. Final result is shown at the end, with option to restart
+
 ## Features
 
 - Custom number of rounds (1–20)
@@ -28,14 +36,6 @@ You can view the live version of this project here:
 - **TypeScript** – game logic & DOM interaction
 - **HTML5** – structure and layout
 - **CSS3** – design, transitions, and animations
-
-## How It Works
-
-1. Enter number of rounds (1–20)
-2. Click “Start Game” to reveal the game UI
-3. Select ✊, ✋ or ✌ to play
-4. See the animations, scores, and progress
-5. Final result is shown at the end, with option to restart
 
 ## Screenshots
 
