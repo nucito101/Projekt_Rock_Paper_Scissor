@@ -34,8 +34,8 @@ function playRound(userChoice: Choice): void {
   if (currentMatch > totalMatches) return
   const pcChoice = getComputerChoice()
 
-  userHandImg.src = `/${capitalize(userChoice)}.svg`
-  pcHandImg.src = `/${capitalize(pcChoice)}.svg`
+  userHandImg.src = `${import.meta.env.BASE_URL}${capitalize(userChoice)}.svg`
+  pcHandImg.src = `${import.meta.env.BASE_URL}${capitalize(pcChoice)}.svg`
 
   let result = ""
 
@@ -101,8 +101,8 @@ function resetGame() {
   gameBox.classList.remove("active")
   gameBox.classList.add("game_hidden")
   configBox.classList.remove("hidden")
-  userHandImg.src = "/Rock.svg"
-  pcHandImg.src = "/Rock.svg"
+  userHandImg.src = `${import.meta.env.BASE_URL}Rock.svg`
+  pcHandImg.src = `${import.meta.env.BASE_URL}Rock.svg`
 }
 
 startBtn.addEventListener("click", () => {
@@ -141,8 +141,8 @@ userButtons.forEach((btn) => {
     })
 
     userButtons.forEach((btn) => (btn.disabled = true))
-    userHandImg.src = "/Rock.svg"
-    pcHandImg.src = "/Rock.svg"
+    userHandImg.src = `${import.meta.env.BASE_URL}Rock.svg`
+    pcHandImg.src = `${import.meta.env.BASE_URL}Rock.svg`
 
     triggerAnimation(userHandImg, "shake")
     triggerAnimation(pcHandImg, "shake")
