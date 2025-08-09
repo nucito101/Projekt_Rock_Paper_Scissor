@@ -1,6 +1,6 @@
 import { defineConfig } from "vite"
 
 export default defineConfig({
-  base: "/Projekt_Rock_Paper_Scissor/",
+  base: "./",
   build: { outDir: "docs" },
 })
