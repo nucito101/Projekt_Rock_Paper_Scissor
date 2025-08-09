@@ -1,4 +1,4 @@
-<h1>✊ ✋ ✌ Rock, Paper, Scissors – TypeScript Project</h1>
+<h1>✊ ✋ ✌ Rock, Paper, Scissor – TypeScript Project</h1>
 
 A simple, interactive **Rock, Paper, Scissors** game against the computer – built with **TypeScript**, **HTML**, and **CSS**.
 
